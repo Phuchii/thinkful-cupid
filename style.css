@@ -129,7 +129,7 @@ footer p {
   align-items: center;
 }
 /* -------  Media Query ------- */
-@media all and (min-width: 800px) {
+@media all and (min-width: 480px) {
   .group {
     display: flex;
     flex-direction: row;
