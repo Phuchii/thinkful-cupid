@@ -55,7 +55,9 @@ main img {
 header {
   background-color: #83092e;
   padding: 20px 20px 0 20px;
-  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -67,7 +69,6 @@ header {
 header nav ul {
   display: flex;
   list-style: none;
-  justify-content: center;
 }
 
 header nav ul li a {
@@ -138,6 +139,7 @@ footer p {
   }
   header {
     text-align: left;
+    justify-content: space-between;
   }
 
   header nav ul {
@@ -145,7 +147,11 @@ footer p {
   }
   #about {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #about h2 {
+    flex: 50%;
   }
   #about .group {
     align-items: center;
@@ -160,3 +166,4 @@ footer p {
     margin: 0px;
   }
 }
+
